@@ -1,0 +1,76 @@
+/* File: includes/css/admin-styles.css */
+
+/* Style the meta box container */
+#wpjm-certifications-repeater {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #f9f9f9;
+}
+
+/* Style each certification entry */
+.certification {
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  position: relative;
+  padding-left: 30px;
+}
+
+/* Style the drag handle */
+.certification .handle {
+  cursor: move;
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+}
+
+/* Style input fields */
+.certification input[type="text"],
+.certification input[type="date"] {
+  width: calc(25% - 12px);
+  padding: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/* Style the remove button */
+.certification .remove-certification {
+  background-color: #d9534f;
+  color: #ffffff;
+  border: none;
+  width: 20px;
+  height: 20px;
+  min-height: unset;
+  padding: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  line-height: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+/* Style the Add Certification button */
+#resume_certification_data .add-certification {
+  margin-top: 16px;
+}
+
+table.wc-job-manager-resumes-repeated-rows tbody td input[type="checkbox"] {
+  width: auto;
+}
+
+#resume_education_data .form-field.form-field-checkbox {
+  text-align: center;
+}
+select#_candidate_preferred_work_type {
+  width: 100%;
+  max-width: 100%;
+}

@@ -1,0 +1,98 @@
+#ae_resume .candidate_title {
+  position: relative;
+  width: fit-content;
+  padding-right: 35px;
+}
+#ae_resume .ae_resume_card-bookmark_form {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+#ae_resume .ae_resume_card-bookmark_form .add-bookmark {
+  position: relative;
+  margin-left: auto;
+  display: block;
+  width: fit-content;
+}
+#ae_resume .ae_resume_card-bookmark_form .add-bookmark:hover svg {
+  fill: #ff8200;
+}
+#ae_resume .ae_resume_card-bookmark_form .add-bookmark:hover svg path {
+  stroke: #ff8200;
+}
+#ae_resume .ae_resume_card-bookmark_form.has-bookmark .add-bookmark svg {
+  fill: #ff8200;
+}
+#ae_resume .ae_resume_card-bookmark_form.has-bookmark .add-bookmark svg path {
+  stroke: #ff8200;
+}
+#ae_resume .ae_resume_card-bookmark_form .remove-bookmark {
+  position: relative;
+  padding: 10px 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #ff0000;
+  border: 1px solid #ff0000;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 10px;
+  display: block;
+  width: fit-content;
+  margin-top: 10px;
+}
+#ae_resume .ae_resume_card-bookmark_form .tooltip {
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  display: none;
+  z-index: 1000;
+  min-width: 200px;
+  text-align: center;
+}
+#ae_resume .ae_resume_card-bookmark_form .tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #333 transparent;
+}
+#ae_resume .ae_resume_card-bookmark_form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+#ae_resume .ae_resume_card-bookmark_form .form-group:first-child {
+  margin-bottom: 16px;
+}
+#ae_resume
+  .ae_resume_card-bookmark_form
+  .form-group
+  #bookmark_notes:focus-visible {
+  outline: 1px solid #ff8000;
+}
+#ae_resume .ae_resume_card-bookmark_form .submit-bookmark-button {
+  padding: 10px 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #ff8200;
+  border: 1px solid #ff8200;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 10px;
+  display: block;
+  width: fit-content;
+}
+#ae_resume .ae_resume_card-bookmark_form .bookmark-details {
+  background: #e4e4e4;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
